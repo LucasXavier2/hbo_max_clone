@@ -1,0 +1,271 @@
+:root {
+    --global-side-margin: 55px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+body {
+    color: #fff;
+    background-color: #000;
+    background-image: url("https://play.hbomax.com/assets/images/backgrounds/hbomax/default_1920x1080.png");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.topNavbar {
+    display: flex;
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+
+    height: 60px;
+
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    z-index: 2;
+}
+
+.topNavbarContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.topNavBarLeftButtons {
+    margin-left: var(--global-side-margin);
+    align-self: flex-start;
+    justify-self: left;
+    flex: 1;
+}
+
+.topNavBarRightButtons {
+    margin-right: var(--global-side-margin);
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.topNavBarLeftButtons img:first-of-type {
+    margin-right: 30px;
+}
+
+.topNavBarRightButtons span:last-of-type {
+    margin-left: 80px;
+}
+
+
+
+
+.headerPromotional {
+    margin-left: var(--global-side-margin);
+    position: absolute;
+    bottom: 50px;
+
+    width: 450px;
+    margin-left: var(--global-side-margin);
+    z-index: 10;
+}
+
+header {
+    position: relative;
+    height: 500px;
+    background-image: url(https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/10/dune_1947.jpg) ;    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 25px;
+}
+
+.gradientBlueButton {
+    border-radius: 30px; 
+    height: 44px; 
+    background-image: linear-gradient(90deg, rgb(71, 16, 193), rgb(120, 87, 255) 92%, rgb(129, 155, 253) 100%);
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.episodeCover {
+    width: 200px;
+    height: 300px;
+}
+
+
+.mediaSection {
+    margin-left: var(--global-side-margin);
+    margin-bottom: 40px;
+}
+
+.mediaSectionTextBlock {
+    margin-bottom: 20px;
+}
+
+.mediaCardList img{
+    margin-right: 8px;
+}
+
+.bigWideCardsSection {
+    margin-left: var(--global-side-margin);
+    margin-bottom: 40px;
+}
+
+
+.middleSignUpCallToAction {
+    display: flex;
+    margin-left: var(--global-side-margin);
+    margin-right: var(--global-side-margin);
+    margin-bottom: 25px;
+}
+
+.middleCallToActionImage {
+    width: 559.5px;
+    height: 314.719px;
+}
+
+.middleSignUpCallToActionTextBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 65px;
+}
+
+.middleSignUpCallToAction h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.bigWideCardsSection {
+    overflow-x: hidden;
+}
+
+.bigWideCardsSection img {
+    height: 348px; 
+    width: 621px;
+    margin-right: 8px;
+}
+
+.middleSignUpCallToActionLeftTextBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fullWidthBannerSection {
+    width: 100%;
+    background-image: url('https://art-gallery-latam.api.hbo.com/images/7LR4lDfQ7gl9kyEl6AAuz/background?v=2867f506be69d7c18f6c0972bfd24333&format=png&size=1040x312&compression=low&protection=false&scaleDownToFit=false&language=pt-br');
+    background-size: cover;
+    height: 360px;
+    margin-bottom: 25px;
+}
+
+.fullWidthBannerSection h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.fullWidthBannerSection > div {
+    margin-left: var(--global-side-margin);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+.bigVerticalCardsSection {
+    margin-left: var(--global-side-margin);
+    margin-bottom: 20px;
+
+    width: 300%;
+    overflow: auto;
+}
+
+.bigVerticalCardsSection img{
+    width: 306px;
+    height: 459px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: var(--global-side-margin);
+    margin-right: var(--global-side-margin);
+    font-size: 11px;
+    margin-bottom: 12px;
+    margin-top: 58px;
+    color: rgb(153, 153, 153);
+}
+
+.footerSocialMediaListWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footerSocialMediaList {
+    display: flex;
+    justify-content: center;
+}
+
+.footerSocialMediaList img {
+    height: 15px;
+    width: 21px;
+}
+
+.footerSocialMediaList img:first-of-type {
+    margin-right: 6px;
+}
+
+.footerRightTextBlock span {
+    margin-bottom: 8px;
+    align-self: flex-end;
+} 
+
+.footerLinks {
+    align-self: flex-end;
+}
+
+.footerRightTextBlock {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.footerRightTextBlock a {
+    margin-left: 5px;
+}
+
+footer .footerLinks a {
+    margin-right: 12px;;
+}
+
+footer .footerLinks a:last-of-type {
+    margin-right: 0px;
+}
